@@ -34,7 +34,7 @@ $ source ~/aula/catkin_ws/devel/setup.bash
 $ rostopic list 
 $ rostopic echo /goal
 ```
-### Terminal 5 (Criando o pacote turtle_regulation e script de regulação):
+#### Terminal 5 (Criando o pacote turtle_regulation e script de regulação):
 ```shell
 $ initros1
 $ source ~/aula/catkin_ws/devel/setup.bash
