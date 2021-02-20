@@ -20,6 +20,7 @@ $ initros1
 $ source ~/aula/catkin_ws/devel/setup.bash
 $ rosrun turtlesim turtlesim_node
 ```
+![alt text](https://github.com/ElizCarvalho/TP1_Veiculos_Autonomos/blob/main/evidencia_terminal_2.png "Turtlesim")
 ##### Terminal 3 (Configurando turtlesim e publicando no tópico /goal):
 ```shell
 $ initros1
@@ -34,6 +35,7 @@ $ source ~/aula/catkin_ws/devel/setup.bash
 $ rostopic list 
 $ rostopic echo /goal
 ```
+![alt text](https://github.com/ElizCarvalho/TP1_Veiculos_Autonomos/blob/main/evidencia_terminal_4.png "Topico /goal")
 #### Terminal 5 (Criando o pacote turtle_regulation e script de regulação):
 ```shell
 $ initros1
@@ -47,6 +49,7 @@ $ cd ~/aula/catkin_ws/
 $ catkin_make
 $ rosrun turtle_regulation regulation_elizabeth_carvalho_DR4_TP1.py
 ```
+![alt text](https://github.com/ElizCarvalho/TP1_Veiculos_Autonomos/blob/main/evidencia_terminal_5.png "Regulação de Postura")
 
 
 
